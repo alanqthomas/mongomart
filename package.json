@@ -2,6 +2,9 @@
     "name": "mongomart",
     "version": "0.1.0",
     "description": "Ecommerce app Using the MongoDB driver and Express",
+		"scripts":{
+			"start": "node mongomart.js"
+		},
     "main": "app.js",
     "dependencies": {
         "express": "~4.13.3",
