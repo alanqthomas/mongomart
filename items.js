@@ -176,7 +176,6 @@ function ItemDAO(database) {
 			);
     }
 
-
     this.createDummyItem = function() {
         "use strict";
 
