@@ -23,8 +23,7 @@ function CartDAO(database) {
     "use strict";
 
     this.db = database;
-
-
+		
     this.getCart = function(userId, callback) {
         "use strict";
 
@@ -40,17 +39,7 @@ function CartDAO(database) {
 
 					callback(userCart);
 				});
-        /*
-        * TODO-lab5
-        *
-        * LAB #5: Implement the getCart() method.
-        *
-        * Query the "cart" collection by userId and pass the cart to the
-        * callback function.
-        *
-        */
     }
-
 
     this.itemInCart = function(userId, itemId, callback) {
         "use strict";
